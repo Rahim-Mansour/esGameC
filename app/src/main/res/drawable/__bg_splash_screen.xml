@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--    android:angle="135"-->
+<!--    <solid android:color="#CCFBFF" />-->
+
+    <gradient
+        android:angle="135"
+        android:startColor="@color/accent7"
+        android:endColor="@color/accent8"
+         />
+
+</shape>
+
+    <!--#43cea2 → #185a9d-->
+    <!--#00428 → #004e92-->
+    <!--#4568dc → #b06ab3-->
+    <!--#4ca1af → #c4e0e5-->
+    <!--#36d1dc → #5b86e5-->
+    <!--#0093E9 -> #80D0C7 -->
+    <!--#CCFBFF -> #EF96C5 -->
+

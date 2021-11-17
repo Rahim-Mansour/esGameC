@@ -1,0 +1,2 @@
+rootProject.name = "esGameC"
+include ':app'

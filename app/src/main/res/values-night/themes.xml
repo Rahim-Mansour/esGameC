@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EsGameC" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <!--        <item name="colorPrimary">@color/purple_500</item>-->
+        <!--        <item name="colorPrimaryVariant">@color/purple_700</item>-->
+        <!--        <item name="colorOnPrimary">@color/white</item>-->
+        <!-- Secondary brand color. -->
+        <!--        <item name="colorSecondary">@color/teal_200</item>-->
+        <!--        <item name="colorSecondaryVariant">@color/teal_700</item>-->
+        <!--        <item name="colorOnSecondary">@color/black</item>-->
+        <!-- Status bar color. -->
+        <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+
+
+        <!-- Customize your theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <!-- Dark variant of the primary branding color. By default, this is the color applied to
+             the status bar (via statusBarColor) and navigation bar (via navigationBarColor). -->
+        <!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--        <item name="android:windowBackground">@color/colorBackground</item>-->
+        <item name="android:windowBackground">@drawable/__bg_splash_screen_reversed</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorError">@color/accent2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--        <item name="android:fontFamily">sans-serif</item>-->
+        <!--        <item name="android:fontFamily">@font/rubik</item>-->
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <!--        works below-->
+        <!--        i prefer to make one style for each button don't make globally  -->
+        <!--        <item name="materialButtonStyle">@style/myButtonStyle</item>-->
+        <!--                <item name="material">@style/myButton</item>-->
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="colorControlActivated">@color/colorControlActivated</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="android:textColorHint">@color/colorTextHint</item><!--color of edittext input-->
+        <!--        <item name="searchViewStyle">@style/MySearchViewStyle</item>-->
+        <item name="android:colorEdgeEffect">@color/colorEdgeEffect
+        </item><!--   by default is the primary color-->
+        <!--        <item name="chipStyle">@style/myTags.Chip.Choice</item>-->
+        <!---->
+        <!---->
+        <!---->
+        <!--        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>-->
+        <!-- will gray iconColor of the status bar  so you can see icons under lightBackground-->
+        <!--         Status bar color. -->
+
+        <!--        <item name="android:windowTranslucentStatus">true</item>--><!-- this the same of  <item name="android:windowLightStatusBar" tools:targetApi="m">true
+        </item> but you can't change the status bar color programmatically-->
+        <!--         Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/transparent</item>
+        <!--                <item name="android:windowActionModeOverlay">true</item>-->
+        <!--        <item name="android:windowActionBarOverlay">true</item>-->
+        <!--        <item name="android:windowContentOverlay">@null</item>-->
+    </style>
+
+    <style name="Theme.EsGameC" parent="Base.Theme.EsGameC" />
+
+    <style name="Theme.EsGameC.NoActionBar" parent="Theme.EsGameC">
+        <!--       for lollipop -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

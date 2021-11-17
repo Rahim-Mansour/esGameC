@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_ic_launcher_background">@color/white</color>
+    <color name="transparent">#00000000</color><!-- 0%-->
+
+    <color name="real_black">#000000</color><!-- 100%-->
+    <color name="real_black_6">#0F000000</color><!-- 6%-->
+    <!--    <color name="real_black_12">#1E000000</color>&lt;!&ndash; 12%&ndash;&gt;-->
+    <color name="real_black_15">#26000000</color><!-- 15%-->
+    <color name="real_black_25">#40000000</color><!-- 25%-->
+    <color name="real_black_38">#61000000</color><!-- 38%-->
+    <color name="real_black_54">#8B000000</color><!-- 54%-->
+    <color name="real_black_83">#DE000000</color><!-- 83%-->
+
+    <color name="black_6">#0F2f333b</color><!--   6%-->
+    <color name="black_10">#1A2f333b</color><!--   10%-->
+    <color name="black_12">#1E2f333b</color><!-- 12%-->
+    <color name="black_15">#262f333b</color><!-- 15%-->
+    <color name="black_38">#612f333b</color><!-- 38%-->
+    <color name="black_54">#8B2f333b</color><!-- 54%-->
+    <color name="black_60">#992f333b</color><!-- 60%-->
+    <color name="black_70">#B32F333B</color><!-- 70%-->
+    <color name="black_83">#DE2f333b</color><!-- 83%-->
+    <color name="black">#2f333b</color><!--     100%-->
+
+    <color name="white_12">#1EFFFFFF</color><!-- 12%-->
+    <color name="white_38">#61FFFFFF</color><!-- 38%-->
+    <color name="white_54">#8BFFFFFF</color><!-- 54%-->
+    <color name="white_60">#99FFFFFF</color><!-- 60%-->
+    <color name="white_83">#DEFFFFFF</color><!-- 83%-->
+    <color name="white">#FFFFFFFF</color><!--   100%-->
+
+
+    <!-- 00EFC8  new test it-->
+    <color name="accent1">#2bcfe4</color> <!-- #2bd0e5 -->
+    <color name="accent2">#f0316e</color><!--#E73075 heart icon-->
+    <color name="accent2_15">#26f0316e</color>
+    <color name="accent3">#e695b1</color>
+    <color name="accent4">#fac5d5</color>
+    <color name="accent5">#2c8c9c</color>
+    <color name="accent6">#218699</color>
+    <color name="accent6_10">#1A218699</color>
+    <color name="accent6_12">#1F218699</color>
+    <color name="accent6_15">#26218699</color>
+    <color name="accent7">#EF96C5</color>
+    <color name="accent8">#CCFBFF</color>
+    <color name="accent9">#11CFC5</color>
+    <color name="accent10">#00ADC1</color>
+    <color name="accent11">#00c0a8</color>
+
+    <!--/grey/-->
+    <color name="grey1">#574e52</color>
+    <color name="grey3">#50515c</color>
+    <color name="grey4">#717377</color>
+    <color name="grey5">#7c7c7c</color>
+    <color name="grey55">#898a91</color>
+    <color name="grey6">#96979b</color>
+    <color name="grey_6">#33AAAAAA</color>
+    <color name="grey7">#b4b4b4</color>
+    <color name="grey8">#c7c2c7</color>
+    <color name="grey9">#c2bdbf</color>
+
+    <color name="grey99">#e5e6e7</color>
+    <color name="grey10">#F2F2F2</color>
+    <color name="grey_11">#99e5e6e7</color>
+    <color name="grey12">#EDEDED</color><!--   same of grey_11 behind white color -->
+
+    <color name="strokeColor">@color/black_15</color><!-- outline color-->
+    <color name="rippleColor">@color/black_15</color><!-- shadow color this better than grey_6 -->
+    <color name="iconColor">@color/grey9
+    </color><!--    <color name="iconColor">@color/greySecondary</color>-->
+    <color name="activeIconColor">@color/black</color>
+
+    <color name="colorSurface">@color/white</color>
+    <color name="colorOnSurface">@color/black</color>
+    <color name="colorBackground">@color/white</color>
+    <color name="colorOnBackground">@color/black</color>
+
+    <color name="colorDividerOnLight">@color/black_15
+    </color><!-- divider is 12% of colorOnSurface-->
+    <color name="colorDividerOnDark">@color/white_12</color><!-- divider is 12% of colorOnSurface-->
+
+    <color name="colorTabItem">@color/black_60</color><!-- colorOnSurface at 60% opacity -->
+    <color name="colorActiveTabItem">@color/black</color><!-- colorPrimary -->
+    <color name="colorTabRipple">@color/black_12</color><!-- colorOnSurface at 8% opacity -->
+    <color name="colorActiveTabRipple">@color/black_12</color><!-- colorPrimary at 8% opacity -->
+
+
+    <color name="colorPrimary">@color/white
+    </color><!-- colorPrimary is the ripple shadow color of screen and it should be the opposite of backgroundColor
+    also, is color of action bar-->
+    <!--    <color name="colorPrimaryVariant">@android:color/transparent</color> didn't work-->
+    <color name="colorPrimaryVariant">@color/white</color>
+    <!--    make the status bar the same of background
+    if you can, make status bar dark in home fragment and white in others -->
+
+    <color name="colorPrimaryDark">@color/black</color>
+    <color name="colorOnPrimary">@color/black</color>
+
+    <color name="colorAccent">@color/accent3</color><!-- color for edittext underline  in active -->
+    <color name="colorTextPrimary">@color/black</color> <!--8B000000 or #8B FFF FFF -->
+    <color name="colorTextSecondary">@color/black_38</color>
+
+    <color name="colorSecondary">@color/accent1</color>
+    <color name="colorSecondaryVariant">@color/accent1</color>
+    <color name="colorOnSecondary">@color/accent6</color>
+
+    <color name="colorTextHint">@color/grey9</color>
+    <color name="colorControlNormal">@color/black_15
+    </color>   <!--    <color name="colorControlNormal">@color/grey_11</color>-->
+
+    <color name="colorControlActivated">@color/accent2</color>
+    <color name="colorControlHighlight">@color/black_15
+    </color> <!-- the selectableItemBackground color by default is 10% black-->
+    <!--  colorControlHighlight  didn't work use colorAccent instead -->
+    <color name="colorEdgeEffect">@color/black_12</color><!-- by default is the primary color-->
+
+    <!--    -->
+    <!--    <color name="purple_200">#FFBB86FC</color>-->
+    <!--    <color name="purple_500">#FF6200EE</color>-->
+    <!--    <color name="purple_700">#FF3700B3</color>-->
+    <!--    <color name="teal_200">#FF03DAC5</color>-->
+    <!--    <color name="teal_700">#FF018786</color>-->
+</resources>
