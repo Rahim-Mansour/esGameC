@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">esGameC</string>
+    <string name="signIn">تسجيل الدخول</string>
+    <string name="msg_welcome">مرحباً بكم   هنا تكتب العبارة الترحيبية</string>
+    <string name="signUp">انشاء حساب جديد</string>
+    <string name="already_have_account">لدي حساب بالفعل</string>
+    <string name="email">الايميل</string>
+    <string name="password">كلمة السر</string>
+    <string name="register_now">انشاء حساب جديد</string>
+    <string name="here_is_your_first_setup_with_us">هنا اول مرحلة لك معنا</string>
+    <string name="last_name">الاسم الاخير</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="parent_account">حساب الوالدين</string>
+    <string name="child_account">حساب الطفل</string>
+    <string name="name">الاسم</string>
+    <string name="signUpForParents">انشاء حساب للوالدين</string>
+    <string name="birthDate">تاريخ الميلاد</string>
+    <string name="male">ذكر</string>
+    <string name="gender">الجنس</string>
+    <string name="signUpForChild">انشاء حساب للطفل</string>
+    <string-array name="genderArray">
+        <item>ذكر</item>
+        <item>انثى</item>
+    </string-array>
+    <string name="example_longText">Product Title Name and it should be big Product Title Name and it should be big Product Title Name and it should be big Product Title Name and it should be big</string>
 </resources>

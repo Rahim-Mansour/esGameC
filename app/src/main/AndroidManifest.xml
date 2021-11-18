@@ -8,8 +8,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.EsGameC.NoActionBar">
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.SplashScreen">
+        <activity android:name=".SignUpActivity"/>
+        <activity android:name=".SignInActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop">
+
+            <!--
+                 don't specify theme in mainActivity that would stop splashscreen logo // do it in MainActivity programmatically
+                android:theme="@style/Theme.TRahimApp.NoActionBar"
+            -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

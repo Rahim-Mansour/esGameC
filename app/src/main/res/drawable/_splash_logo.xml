@@ -19,18 +19,20 @@
     <!--            android:gravity="center"-->
     <!--            android:src="@drawable/rahim_logo" />-->
     <!--    </item>-->
-<!--    <item-->
-<!--        android:drawable="@drawable/rahim_logo"-->
-<!--        android:gravity="center" />-->
-    <item
-        android:drawable="@mipmap/my_ic_launcher_round"
-        android:gravity="center" />
+    <!--    <item-->
+    <!--        android:drawable="@drawable/rahim_logo"-->
+    <!--        android:gravity="center" />-->
+    <!--    <item android:drawable="@mipmap/ic_launcher" />-->
 
-    <!--    <item android:bottom="20dp">-->
-    <!--        <bitmap-->
-    <!--            android:gravity="bottom"-->
-    <!--            android:src="@drawable/_ic_profile_circle_40" />-->
-    <!--    </item>-->
+    <item>
+        <bitmap
+            android:bottom="300dp"
+            android:gravity="fill"
+            android:left="50dp"
+            android:right="50dp"
+            android:src="@drawable/es_game_logo"
+            android:top="80dp" />
+    </item>
 
 
 </layer-list>
