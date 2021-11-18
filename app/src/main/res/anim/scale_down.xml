@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!--You can use these scale animations for fab button, it gives same effect like design lib fab button.-->
+<!--    scale_down.xml-->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale
+        android:duration="100"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="0"
+        android:toYScale="0" />
+    <!--
+# first method
+android:pivotX="85%"
+android:pivotY="85%"
+
+# second method
+add this ->    android:interpolator="@android:anim/linear_interpolator"
+android:pivotX="50%"
+android:pivotY="50%"
+-->
+</set>

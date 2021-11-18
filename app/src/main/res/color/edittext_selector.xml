@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Disabled -->
+    <!--    <item android:alpha=".3" android:color="?attr/colorOnSurface" android:state_enabled="false" />-->
+
+    <!-- Focused -->
+    <!--    <item android:color="?attr/colorPrimary" android:state_focused="true"/>-->
+    <item android:color="@color/accent2" android:state_focused="true" />
+    <!--    this line doesn't work-->
+
+
+    <!-- Hovered -->
+    <!--    <item android:color="?attr/colorOnSurface" android:state_hovered="true" />-->
+
+    <!-- Normal -->
+    <!--    <item android:color="?attr/colorOutline" />-->
+    <item android:color="@color/accent9" />
+
+</selector>
